@@ -232,7 +232,7 @@ export default function DashboardPage({ showToast }: Props) {
                         ))}
                       </Pie>
                       <Tooltip
-                        formatter={(value: number) => [value, ""]}
+                        formatter={(value) => [typeof value === "number" ? value : Number(value ?? 0), ""]}
                         contentStyle={tooltipStyle}
                       />
                     </PieChart>
