@@ -1,0 +1,10 @@
+# Easypanel / Nixpacks: serve Vite production build (not /src/main.tsx from dev index.html)
+:{$PORT:3000}
+
+root * /app/dist
+
+encode gzip zstd
+
+try_files {path} /index.html
+
+file_server

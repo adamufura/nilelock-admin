@@ -1,0 +1,9 @@
+# Node 22 + build dist; Caddyfile in repo serves /app/dist (fixes blank page)
+[variables]
+NIXPACKS_NODE_VERSION = "22"
+
+[phases.build]
+cmds = ["npm run build"]
+
+[staticAssets]
+"dist" = "/"
