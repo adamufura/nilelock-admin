@@ -364,7 +364,7 @@ export default function LocksPage({ token, showToast, onNavigateToNewLock }: Pro
               </div>
               <div className="rounded-xl border border-slate-100 bg-slate-50/50 p-4 dark:border-slate-700 dark:bg-slate-800/50">
                 <p className="mb-3 text-xs text-slate-600 dark:text-slate-400">
-                  Each owner sets their passcode in the mobile app. Use search when you have many users.
+                  Each owner sets a time-limited visitor passcode in the mobile app (1 min–24 hours). Use search when you have many users.
                 </p>
                 <OwnerMultiSelect
                   users={users}

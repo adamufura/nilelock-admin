@@ -64,7 +64,7 @@ export default function EventsPage({ showToast }: Props) {
             <thead>
               <tr className="sticky top-0 z-10 border-b border-slate-200 bg-slate-50/95 text-left text-xs font-semibold uppercase tracking-wide text-slate-500 backdrop-blur-md dark:border-slate-700 dark:bg-slate-800/95 dark:text-slate-400">
                 <th className="px-5 py-4">Lock</th>
-                <th className="px-5 py-4">User</th>
+                <th className="px-5 py-4">Visitors</th>
                 <th className="px-5 py-4">Action</th>
                 <th className="px-5 py-4">Outcome</th>
                 <th className="px-5 py-4">Channel</th>
